@@ -5,3 +5,8 @@ We propose a sequence-to-sequence model to capture a partial trajectory that con
 Keywords:
 
 attention mechanism, attractive region, bi-directional LSTM, destination prediction, partial trajectory
+
+
+Cited as:
+
+Iqbal, M., Prayitno, A. S. D., Pao, H. K., & Mukhlash, I. (2024). Mining fuzzy local periodic activity pattern for Smart home applications. Knowledge-Based Systems, 293, 111629.

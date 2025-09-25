@@ -1,0 +1,7 @@
+Abstract
+
+We propose a sequence-to-sequence model to capture a partial trajectory that contains a few attractive local regions and forecast its destination. Therefore, the main goal of this work is to predict the destination, given the trip’s trajectory, effectively by learning from its attractive local sub-trajectory only. Conceptually, the proposed model incorporates Bidirectional Long Short-Term Memory (BiLSTM) for finding frequent trip trajectories and a Consecutive Attractive Local Regions (CALR) mechanism for only taking their few attractive local regions, called CALR-BiLSTM. Existing related works focused on observing whole regions of each trip trajectory at once to decide its attractive ones from a Global Attention Mechanism (GAM). However, GAM may hold similar attractive sub-trajectories for different destinations, which leads to worse predictions. To overcome the issue, the proposed model observes the entire trip trajectory part by part within a small window, such as focusing on a few regions that are attractive. In this work, we demonstrated the proposed model on large public datasets. As a result, we can enjoy the proposed model as the winner against the state-of-the-art models. Moreover, we present ablation studies on various recurrent neural networks and attention mechanisms to ensure the proposed model is in the right settings.
+
+Keywords:
+
+attention mechanism, attractive region, bi-directional LSTM, destination prediction, partial trajectory
